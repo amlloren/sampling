@@ -32,6 +32,9 @@ def simulate_event(m):
   - A tuple containing the proportion of infections and the proportion of traced cases
     that are attributed to weddings.
   """
+  # Setting the seed within the simulation function
+  np.random.seed(m)  
+
   # Create DataFrame for people at events with initial infection and traced status
   events = ['wedding'] * 200 + ['brunch'] * 800
   ppl = pd.DataFrame({
@@ -67,17 +70,22 @@ def simulate_event(m):
 
   return p_wedding_infections, p_wedding_traces
 
-# Run the simulation 50000 times
-results = [simulate_event(m) for m in range(50000)]
-props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
+# Created a Run Simulation function thaat I can pick the random seed and repetition.
+def run_simulation(seed, repetitions=1000):
+    np.random.seed(seed)  # Ensure reproducibility by setting the seed
+    results = [simulate_event(m) for m in range(repetitions)]
+    props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
-# Plotting the results
-plt.figure(figsize=(10, 6))
-sns.histplot(props_df['Infections'], color="blue", alpha=0.75, binwidth=0.05, kde=False, label='Infections from Weddings')
-sns.histplot(props_df['Traces'], color="red", alpha=0.75, binwidth=0.05, kde=False, label='Traced to Weddings')
-plt.xlabel("Proportion of cases")
-plt.ylabel("Frequency")
-plt.title("Impact of Contact Tracing on Perceived Infection Sources")
-plt.legend()
-plt.tight_layout()
-plt.show()
+    # Plotting the results
+    plt.figure(figsize=(10, 6))
+    sns.histplot(props_df['Infections'], color="blue", alpha=0.75, binwidth=0.05, kde=False, label='Infections from Weddings')
+    sns.histplot(props_df['Traces'], color="red", alpha=0.75, binwidth=0.05, kde=False, label='Traced to Weddings')
+    plt.xlabel("Proportion of cases")
+    plt.ylabel("Frequency")
+    plt.title("Impact of Contact Tracing on Perceived Infection Sources")
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+
+# Run the simulation with a fixed seed
+run_simulation(seed=42, repetitions=1000)
