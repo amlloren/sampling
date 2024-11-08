@@ -73,10 +73,12 @@ The observed proportion illustrated in the blog post differs from the output of 
 
 #### Reproducibility of Results
 Modification: Changing the number of repetitions in the simulation to 1000 (from the original 50000) and running the code multiple times.
+
 Observation: The output graphs varied slightly each time, indicating that their spread and peaks were not exactly the same but still quite similar.
 To make the results reproducible, I made the following changes:
 
 Set a Random Seed: Added a random seed (np.random.seed(42)) to ensure consistent results.
+
 Created a Function: Developed a run_simulation function to set the random seed and repetition when running the simulation.
 After these modifications, I was able to reproduce the same results consistently. The test code in test_runs.ipynb shows these simulations.
 
