@@ -17,16 +17,16 @@ Please write your explanation here...
 
 ```
 
-#### Examination of the Code
+### Examination of the Code
 The whitby_covid_tracing.py script simulates the process of COVID-19 infections and contact tracing for individuals attending events, specifically weddings and brunches.
 
-##### Sample Frame
+#### Sample Frame
 The sample frame consists of 1000 people in the community. These individuals are distributed across different events:
 
 * Weddings: 2 weddings with 100 attendees each.
 * Brunches: 80 brunches with 10 attendees each.
 
-##### Sample Size
+#### Sample Size
 The sample size can be understood at different stages:
 
 * Total Population: 1000 individuals.
@@ -36,7 +36,7 @@ The sample size can be understood at different stages:
 * Infected Individuals:
     * Each individual has a 10% chance of being infected, so the expected number of infections varies due to the randomness in the simulation.
 
-##### Sampling Procedure
+#### Sampling Procedure
 The sampling procedure in this model consists of three steps:
 
 1. Simulating Infections:
@@ -53,7 +53,7 @@ The sampling procedure in this model consists of three steps:
 
     * Description: If at least two infections are traced back to the same event, all infections from that event are identified. This step ensures that if multiple cases are found from the same event, a thorough follow-up detects all associated infections.
 
-##### Analysis of Bias in Contact Tracing
+#### Analysis of Bias in Contact Tracing
 The blog post discusses how contact tracing can lead to biased samples because some events are easier to trace than others. In the model:
 
 * Weddings: Easier to trace due to more attendees and higher chances of identifying multiple infections. Weddings often have guest lists and contact information collected by the event planner.
@@ -61,18 +61,17 @@ The blog post discusses how contact tracing can lead to biased samples because s
 
 This results in an overestimation of infections from easily traceable events (like weddings) and an underestimation from harder-to-trace events (like brunches). Understanding the steps in the sampling procedure and their rationale helps appreciate the model's demonstration of bias in contact tracing.
 
-##### Comparing Graph Results
+#### Comparing Graph Results
 Original Blog Post Graph:
 Proportion of infections resulting from weddings peaks between 0.18 and 0.23 (18% to 23%) and has a spread between 0.08 and 0.35 (8% to 35%).
 
 Simulation Results:
-
 When the code is run with 50000 repetitions, the proportion of infections resulting from weddings peaks between 0.15 and 0.20 (15% to 20%) and has a spread between 0.06 and 0.35 (6% to 35%).
 These numbers are slightly off but still similar in shape.
 
 The observed proportion illustrated in the blog post differs from the output of the whitby_covid_tracing.py code. The blog post shows a larger spread (0.03 to 0.08, or 30% to 80%) than the simulation results. Therefore, the code reproduces similar results for "infections from weddings" but does not fully match the blog post's results.
 
-##### Reproducibility of Results
+#### Reproducibility of Results
 Modification: Changing the number of repetitions in the simulation to 1000 (from the original 50000) and running the code multiple times.
 Observation: The output graphs varied slightly each time, indicating that their spread and peaks were not exactly the same but still quite similar.
 To make the results reproducible, I made the following changes:
