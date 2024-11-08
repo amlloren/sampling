@@ -20,10 +20,13 @@ The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-The purpose of the survey is to analyze specific factors contributing to the high turnover of employees in entry- and lower-level positions at our company. By gathering detailed feedback on aspects such as work-life balance, compensation, career advancement opportunities, and management practices, the HR department aims to identify key areas impacting employee satisfaction and retention. The insights gained from this survey will be used to develop targeted strategies to enhance the work environment, improve employee engagement, and ultimately reduce turnover rates.
+write your answer here...
 ```
+The purpose of the survey is to analyze specific factors contributing to the high turnover of employees in entry- and lower-level positions at our company. By gathering detailed feedback on aspects such as work-life balance, compensation, career advancement opportunities, and management practices, the HR department aims to identify key areas impacting employee satisfaction and retention. The insights gained from this survey will be used to develop targeted strategies to enhance the work environment, improve employee engagement, and ultimately reduce turnover rates.
 
 Describe your target population, sampling frame, sampling units, and observational units:
+```
+write your answer here...
 ```
 Target Population: All employees in entry- and lower-level positions at the tech company.
 
@@ -34,9 +37,19 @@ Sampling Units: Each individual employee in these roles.
 Observational units: Employees that complete the survey
 
 Sampling Strategy: Stratified random sampling could be effective here to ensure representation across various departments. This will capture diverse perspectives on satisfaction, which might vary by department. If departments are small, a simple random sample might work to get a representative snapshot without department-level breakdowns.
-```
 
 Your 5-10 question survey:
+```
+1. write your question here...
+2. write your question here...
+3. write your question here...
+4. write your question here...
+5. write your question here...
+6. write your question here... (optional)
+7. write your question here... (optional)
+8. write your question here... (optional)
+9. write your question here... (optional)
+10. write your question here... (optional)
 ```
 1. How long have you been employed at the company? (Options: Less than 6 months, 6 months to 1 year, 1-2 years, 2+ years)
 2. What department are you currently working in? (Options:List major departments)
@@ -48,7 +61,6 @@ Your 5-10 question survey:
 8. Have you considered leaving the company in the past 6 months? If yes, what were the main reasons? (Yes, No. If yes, follow-up asking for reasons)
 9. What changes would improve your experience and job satisfaction at the company? (Open-ended response)
 10. Additional comments on your experience working at the company? (Open-ended response)
-```
 
 ## Rubric
 
