@@ -6,11 +6,12 @@
     ```
     write your answer here...
     ```
-        In my survey design, I used stratified random sampling to ensure representation across various departments within the company. By dividing the employee population into strata based on their departments and randomly selecting participants from each stratum, I aimed to capture diverse perspectives on job satisfaction and factors contributing to turnover.
 
-    One notable limitation of this sampling method is that it inherently excludes employees who have already left the company due to dissatisfaction. Their absence could lead to an underrepresentation of the most dissatisfied employees. Additionally, employees who are on leave or vacation during the survey period might also be underrepresented, potentially skewing the results toward the perspectives of those currently present and active in their roles.
+In my survey design, I used stratified random sampling to ensure representation across various departments within the company. By dividing the employee population into strata based on their departments and randomly selecting participants from each stratum, I aimed to capture diverse perspectives on job satisfaction and factors contributing to turnover.
 
-    These biases could affect the results by painting an overly positive or skewed picture of employee satisfaction. For example, if unhappy employees disproportionately opt out of the survey, the feedback collected will primarily reflect the views of those who are more satisfied, potentially leading to inaccurate conclusions about the reasons for high turnover and the overall level of job satisfaction. Additionally, depending on the size of the company and the number of employees in the ertry- and lower-level, there might be merit in surveying all employees instead if the targeted employee population is less than 900.
+One notable limitation of this sampling method is that it inherently excludes employees who have already left the company due to dissatisfaction. Their absence could lead to an underrepresentation of the most dissatisfied employees. Additionally, employees who are on leave or vacation during the survey period might also be underrepresented, potentially skewing the results toward the perspectives of those currently present and active in their roles.
+
+These biases could affect the results by painting an overly positive or skewed picture of employee satisfaction. For example, if unhappy employees disproportionately opt out of the survey, the feedback collected will primarily reflect the views of those who are more satisfied, potentially leading to inaccurate conclusions about the reasons for high turnover and the overall level of job satisfaction. Additionally, depending on the size of the company and the number of employees in the ertry- and lower-level, there might be merit in surveying all employees instead if the targeted employee population is less than 900.
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
@@ -55,7 +56,8 @@ After exploring the topics in this weeks classes, I would consider making a few 
     ```
     write your answer here...
     ```
-    While an observational study could provide valuable objective data on turnover rates, employee demographics, and other quantifiable metrics, it would fall short in capturing the subjective experiences, motivations, and personal opinions that are crucial for understanding employee satisfaction and dissatisfaction. The survey's primary purpose is to gather direct feedback from employees on their work experiences and suggestions for improvement, which requires an approach that solicits their personal insights and subjective viewpoints. Observational methods lack the ability to delve into these personal and motivational aspects, making the survey approach indispensable for achieving the survey's goals.
+
+While an observational study could provide valuable objective data on turnover rates, employee demographics, and other quantifiable metrics, it would fall short in capturing the subjective experiences, motivations, and personal opinions that are crucial for understanding employee satisfaction and dissatisfaction. The survey's primary purpose is to gather direct feedback from employees on their work experiences and suggestions for improvement, which requires an approach that solicits their personal insights and subjective viewpoints. Observational methods lack the ability to delve into these personal and motivational aspects, making the survey approach indispensable for achieving the survey's goals.
 
 ## Why am I doing this assignment?
 
