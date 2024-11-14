@@ -29,13 +29,6 @@
 9. What changes would improve your experience and job satisfaction at the company? (Open-ended response)
 10. Additional comments on your experience working at the company? (Open-ended response)
 
-#### DESIRED CHANGES
-After exploring the topics in this weeks classes, I would consider making a few changes to my original survey:
-
-* Adding descriptive labels to the scales in questions 3 and 4 improves clarity and ensures respondents understand what each point on the scale represents, reducing measurement error.
-* Ensuring the list of factors contributing to satisfaction and dissatisfaction match exactly prevents confusion and maintains consistency, which helps in data analysis.
-* Separating the follow-up question in question 8 into its own question enhances clarity and ensures that the follow-up is clearly related to the initial question, reducing potential confusion and improving the quality of the responses.
-
 #### REVISED SURVEY
 
 1. How long have you been employed at the company? (Options: Less than 6 months, 6 months to 1 year, 1-2 years, 2+ years)
@@ -49,6 +42,13 @@ After exploring the topics in this weeks classes, I would consider making a few 
 9. If yes, what were the main reasons for considering leaving? (Open-ended response)
 10. What changes would improve your experience and job satisfaction at the company? (Open-ended response)
 11. Additional comments on your experience working at the company? (Open-ended response)
+
+#### DESIRED CHANGES
+After exploring the topics in this weeks classes, I would consider making a few changes to my original survey:
+
+* Adding descriptive labels to the scales in questions 3 and 4 improves clarity and ensures respondents understand what each point on the scale represents, reducing measurement error.
+* Ensuring the list of factors contributing to satisfaction and dissatisfaction match exactly prevents confusion and maintains consistency, which helps in data analysis.
+* Separating the follow-up question in question 8 into its own question enhances clarity and ensures that the follow-up is clearly related to the initial question, reducing potential confusion and improving the quality of the responses.
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
